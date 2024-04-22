@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.form{
+    position: relative;
+    display: grid;
+}
+span{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    background-color: bisque;
+    border: 1px solid blue;
+    color: brown;
+    place-content: center;
+}
+.value{
+    padding: 50px;
+    width: 240px;
+    height: 120px;
+    text-align: right;
+    grid-column: span 4;
+    font-size: 30px;
+}
+span:active{
+    background-color: aquamarine;
+    color: brown;
+}
+.clear{
+    background-color: hotpink;
+}
+.equal{
+    background-color: burlywood;
+    grid-row: span 2;
+    margin-top: -30px;
+    height: 90px;
+}
+.kurung1{
+    height: 30px;
+    width: 30px;
+}
+.kurung2{
+    height: 30px;
+    width: 30px;
+    right: 0px;
+    top: 300px;
+    position: absolute;
+}
